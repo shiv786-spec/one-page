@@ -1,0 +1,54 @@
+.team{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+      height: 70vh;
+    background-color: rgba(43, 48, 60, 0.9);
+}
+
+.Team-heading{
+    text-align: center;
+    color: white;
+}
+
+
+.swiper {
+  width: 75%;
+  height: 70%;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  /* border-radius: 20px; */
+  font-size: 18px;
+  background-color:black;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.team-img{
+  height: 70%;
+  width: 100%;
+
+  img{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.Team-name{
+  /* height: 10%; */
+  color: white;
+}
+
+.team-icons{
+  height: 20%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: aqua;
+color: white;
+}

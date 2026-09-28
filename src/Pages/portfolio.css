@@ -1,0 +1,73 @@
+.Port-con{
+    /* height: 120vh; */
+    background-color: rgb(245, 231, 231);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    .Port-heading{
+        text-align: center;
+
+        p{
+            font-size: 17px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+            h1{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    }
+    .Port-nav{
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 50%;
+    font-size: 20px;
+         border-top: 2px solid black;
+        height: 10vh;
+        border-bottom: 2px solid black;
+        align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   
+    }
+}
+
+.Port-grid-sec{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+
+.Port-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+/* height: 70vh; */
+/* width: 80%; */
+
+.Port-box{
+    /* border: 2px solid black; */
+    height: 200px;
+    /* width: 300px; */
+}
+
+.Port-box1{
+    /* border: 2px solid black; */
+    /* height: 300px; */
+    width: 250px;
+   
+}
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+}
+
